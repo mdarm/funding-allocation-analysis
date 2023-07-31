@@ -1,0 +1,103 @@
+%% Creator: Inkscape 1.0 (4035a4fb49, 2020-05-01), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'test.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{510bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{test.pdf}}%
+    \put(0.11211897,0.31947265){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{test.pdf}}%
+    \put(0.11033368,0.28963662){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{test.pdf}}%
+    \put(0.11211897,0.40951971){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{test.pdf}}%
+    \put(0.17763059,0.24839118){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.8\end{tabular}}}}%
+    \put(0.11211897,0.49956676){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.4\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{test.pdf}}%
+    \put(0.92170471,0.23793912){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{test.pdf}}%
+    \put(0.04265882,0.54163897){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Health\end{tabular}}}}}%
+    \put(0.11211897,0.58961382){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.6\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{test.pdf}}%
+    \put(0.2449275,0.20714573){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.6\end{tabular}}}}%
+    \put(0.83400147,0.20629044){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.8\end{tabular}}}}%
+    \put(0.28600279,0.09931368){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}Finance\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{test.pdf}}%
+    \put(0.11211897,0.67966088){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.8\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{test.pdf}}%
+    \put(0.74629853,0.17464176){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.6\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{test.pdf}}%
+    \put(0.67129779,0.08731779){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Trade\end{tabular}}}}%
+    \put(0.31222441,0.16590029){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.4\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{test.pdf}}%
+    \put(0.11211897,0.76970794){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{test.pdf}}%
+    \put(0.65859544,0.14299294){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.4\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{test.pdf}}%
+    \put(0.37952132,0.124655){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{test.pdf}}%
+    \put(0.57089235,0.11134426){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{test.pdf}}%
+    \put(0.44681838,0.08340956){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{test.pdf}}%
+    \put(0.48318926,0.07969559){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{test.pdf}}%
+    \put(0.79117647,0.88289676){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Cluster 1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{test.pdf}}%
+    \put(0.79117647,0.85145574){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Cluster 2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{test.pdf}}%
+    \put(0.79117647,0.82001485){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Cluster 3\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{test.pdf}}%
+    \put(0.79117647,0.78857382){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Centroid\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{test.pdf}}%
+  \end{picture}%
+\endgroup%
