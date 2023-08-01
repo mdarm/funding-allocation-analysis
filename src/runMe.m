@@ -20,7 +20,7 @@ clear; close all; clc
 %% ================= Part 1: Feeling the data ========================
 
 % Import the CSV file
-data = readtable('Country-data.csv');
+data = readtable('../dataset/Country-data.csv');
 
 % Extract the labels from the first column
 countryNames = data{:, 1};
