@@ -23,6 +23,13 @@ For clustering, the k-means algorithm was applied. The initialisation of the cen
 For a more detailed view of the analysis, and the conclusions thereof, have a closer look at the [report](report/main.pdf).
 
 ## Sample Output
+Clustering visualisation:
+
+<p align="center">
+  <img src="output/test.svg" alt="Image">
+</p>
+
+Coutries within clusters:
 ```bash
            Cluster 1	           Cluster 2	           Cluster 3
           ----------	          ----------	          ----------
