@@ -6,6 +6,14 @@ This project utilises clustering algorithms to categorise countries based on key
 - **Plot2LaTeX**: [Script](https://www.mathworks.com/matlabcentral/fileexchange/52700-plot2latex) used for generating figures and visual representations (requires [Inkscape](https://inkscape.org/download/)).
 - **Clustering Algorithms**: Algorithms sourced from the textbook [Introduction to Pattern Recognition](https://github.com/pikrakis/Introduction-to-Pattern-Recognition-a-Matlab-Approach).
 
+## Methodology
+
+The data underwent preprocessing where features were first grouped based on their inherent relationships into specific categories: health (child mortality, health, life expectancy, total fertility rate), trade (imports, exports), and finance (income, inflation, GDP). Features were then combined into broader categories, therefore, enhancing the comprehension of inter-feature relationships. 
+
+Following this grouping, the dataset was normalised using a min-max scheme to ensure all features contributed equally. A correlation matrix was constructed and visualised using a heatmap.
+
+For clustering, the k-means algorithm was applied. The initialisation of the centroids was done using the [rand_data_init.m](src/rand_data_init.m) function and iteratively refined clusters using the [k_means.m](src/k_means.m) function until convergence. The final result was the dataset partitioning into three distinct clusters, with each cluster showcasing its associated countries.
+
 ## Key Findings
 - A strong correlation exists between low income and high child mortality, a known concept in economics and public health.
 - Countries exhibiting this correlation typically have underdeveloped economies and weaker healthcare infrastructures.
