@@ -99,7 +99,7 @@ set(h,'Units','Inches');
 pos = get(h,'Position');
 set(h, 'PaperPositionMode', 'Auto', 'PaperUnits', 'Inches',...
     'PaperSize', [pos(3), pos(4)])
-print(h, 'histogram', '-dpdf', '-r0')
+print(h, '..\output\histogram', '-dpdf', '-r0')
 
 % Calculate the Pearson correlation coefficient between
 % each pair of features
@@ -118,7 +118,7 @@ set(h,'Units','Inches');
 pos = get(h,'Position');
 set(h, 'PaperPositionMode', 'Auto', 'PaperUnits', 'Inches',...
     'PaperSize', [pos(3), pos(4)])
-print(h, 'corr1', '-dpdf', '-r0')
+print(h, '..\output\corr1', '-dpdf', '-r0')
 
 % Calculate the mean and standard deviation of each column
 meanVals = mean(data, 1);
@@ -144,7 +144,7 @@ set(h,'Units','Inches');
 pos = get(h,'Position');
 set(h, 'PaperPositionMode', 'Auto', 'PaperUnits', 'Inches',...
     'PaperSize', [pos(3), pos(4)])
-print(h, 'corr2', '-dpdf', '-r0')
+print(h, '..\output\corr2', '-dpdf', '-r0')
 
 % Find the minimum and maximum values in each column of the data
 minVals = min(data);
@@ -170,7 +170,7 @@ set(h, 'Units', 'Inches');
 pos = get(h, 'Position');
 set(h, 'PaperPositionMode', 'Auto', 'PaperUnits', 'Inches',...
     'PaperSize', [pos(3), pos(4)])
-print(h, 'corr3', '-dpdf', '-r0')
+print(h, '..\output\corr3', '-dpdf', '-r0')
 
 %% ================= Part 2: Feature selection ========================
 
@@ -248,7 +248,7 @@ set(h,'Units','Inches');
 pos = get(h,'Position');
 set(h, 'PaperPositionMode', 'Auto', 'PaperUnits', 'Inches',...
     'PaperSize', [pos(3), pos(4)])
-print(h, 'elbow', '-dpdf', '-r0')
+print(h, '..\output\elbow', '-dpdf', '-r0')
 
 evaluation = evalclusters(dataFinal', "kmeans",...
     "CalinskiHarabasz", "KList", 1:10);
@@ -261,7 +261,7 @@ set(h,'Units','Inches');
 pos = get(h,'Position');
 set(h, 'PaperPositionMode', 'Auto', 'PaperUnits', 'Inches',...
     'PaperSize', [pos(3), pos(4)])
-print(h, 'eval', '-dpdf', '-r0')
+print(h, '..\output\eval', '-dpdf', '-r0')
 
 % Set fixed value of m
 m = 3;
@@ -309,7 +309,7 @@ hold off
 
 ChangeInterpreter(figure(7), 'latex')
 PlotDimensions(figure(7), 'centimeters', [18, 18], 12)
-Plot2LaTeX(figure(7), 'test')
+Plot2LaTeX(figure(7), '..\output\test')
 
 %% ============= Part 4: Characterisation of clusters ================
 
@@ -373,7 +373,7 @@ set(h,'Units','Inches');
 pos = get(h,'Position');
 set(h, 'PaperPositionMode', 'Auto', 'PaperUnits', 'Inches',...
     'PaperSize', [pos(3), pos(4)])
-print(h, 'childmortbox', '-dpdf', '-r0')
+print(h, '..\output\childmortbox', '-dpdf', '-r0')
 
 % Boxplot of income for all clusters
 figure(9), boxplot(income, grp, 'Labels', clusters);
@@ -386,4 +386,4 @@ set(h,'Units','Inches');
 pos = get(h,'Position');
 set(h, 'PaperPositionMode', 'Auto', 'PaperUnits', 'Inches',...
     'PaperSize', [pos(3), pos(4)])
-print(h, 'healthbox', '-dpdf', '-r0')
+print(h, '..\output\healthbox', '-dpdf', '-r0')
