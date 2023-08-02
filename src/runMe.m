@@ -8,7 +8,7 @@
 %     k_means.m
 %
 %  Two further functions, written by the authors, were also used
-%  for editting plot variables, namely:
+%  for editting/plotting variables, namely:
 %
 %     PlotDimensions.m
 %     ChangeInterpreter.m
